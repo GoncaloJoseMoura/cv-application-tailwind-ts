@@ -6,8 +6,8 @@
  */
 .quill:focus-within,
 .quill:hover {
-  outline: 1.5px solid rgb(171 196 255);
-  caret-color: rgb(171 196 255);
+	outline: 1.5px solid rgb(171 196 255);
+	caret-color: rgb(171 196 255);
 }
 
 .quill {

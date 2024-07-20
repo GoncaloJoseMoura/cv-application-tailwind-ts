@@ -8,10 +8,9 @@ import { EmploymentResume } from "./containers/Employment"
 import { EducationResume } from "./containers/Education"
 
 function DownloadBar() {
-
 	const print = () => {
 		window.print()
-	} 
+	}
 
 	return (
 		<div className='absolute top-0 flex h-9 w-full items-center justify-center bg-zinc-700 px-5'>
@@ -65,7 +64,6 @@ function Main() {
 }
 
 function Resume() {
-
 	return (
 		<>
 			<DownloadBar />

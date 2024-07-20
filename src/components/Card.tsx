@@ -52,7 +52,7 @@ function CardLanguages() {
 	}
 
 	return (
-		<div className="flex flex-wrap">
+		<div className='flex flex-wrap'>
 			{language.map((idiom: string, index: number) => (
 				<button
 					className='mb-2 mr-2 cursor-pointer rounded-lg border-none bg-lightViolet px-5 py-1 text-center text-sm text-white hover:line-through'

@@ -51,12 +51,14 @@ function ContactsResume() {
 				<li className='mb-[10px] text-[0.65rem] font-bold text-white'>
 					Address
 					<br />
-					<span className="text-white text-[0.5rem] font-normal">{personalDetails.address}</span>
+					<span className='text-[0.5rem] font-normal text-white'>
+						{personalDetails.address}
+					</span>
 				</li>
 				<li className='mb-[10px] text-[0.65rem] font-bold text-white'>
 					Phone
 					<br />{" "}
-					<span className='text-white text-[0.5rem] font-normal'>
+					<span className='text-[0.5rem] font-normal text-white'>
 						{personalDetails.phone}
 					</span>
 				</li>
@@ -65,7 +67,7 @@ function ContactsResume() {
 					<br />{" "}
 					<a
 						href='mailto: goncalo771@gmail.com'
-						className='text-white text-[0.5rem] font-normal underline'
+						className='text-[0.5rem] font-normal text-white underline'
 					>
 						{personalDetails.email}
 					</a>
@@ -77,7 +79,7 @@ function ContactsResume() {
 						href='https://linkedin.com/username'
 						target='_blank'
 						rel='noopener noreferrer'
-						className='text-white text-[0.5rem] font-normal underline'
+						className='text-[0.5rem] font-normal text-white underline'
 					>
 						{personalDetails.linkedin}
 					</a>
@@ -89,7 +91,7 @@ function ContactsResume() {
 						href='https://github.com/username'
 						target='_blank'
 						rel='noopener noreferrer'
-						className='text-white text-[0.5rem] font-normal underline'
+						className='text-[0.5rem] font-normal text-white underline'
 					>
 						{personalDetails.portfolio}
 					</a>

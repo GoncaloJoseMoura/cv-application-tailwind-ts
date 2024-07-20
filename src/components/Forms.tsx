@@ -246,7 +246,7 @@ function FormEducation({ index }: { index: number | undefined }) {
 							theme='snow'
 							value={field.value}
 							onChange={field.onChange}
-							placeholder="e.g Understand and apply advanced mathematical concepts..."
+							placeholder='e.g Understand and apply advanced mathematical concepts...'
 							modules={{
 								toolbar: [
 									["bold", "italic", "underline"],
@@ -398,7 +398,7 @@ function FormEmployment({ index }: { index: number | undefined }) {
 							theme='snow'
 							value={field.value}
 							onChange={field.onChange}
-							placeholder="e.g Designed and developed responsive websites ..."
+							placeholder='e.g Designed and developed responsive websites ...'
 							modules={{
 								toolbar: [
 									["bold", "italic", "underline"],
