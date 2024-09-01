@@ -30,7 +30,7 @@
 	label {
 		display: flex;
 		flex-direction: column;
-		color: rgb(171 196 255);
+		color: #abc4ff;
 		gap: 4px;
 		font-size: 1rem;
 	}
@@ -86,8 +86,8 @@
 	input:hover,
 	textarea:focus,
 	textarea:hover {
-		outline: 1.5px solid rgb(171 196 255);
-		caret-color: rgb(171 196 255);
+		outline: 1.5px solid #abc4ff;
+		caret-color: #abc4ff;
 	}
 
 	textarea {
