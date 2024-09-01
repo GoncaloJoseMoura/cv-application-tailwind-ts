@@ -44,7 +44,7 @@ function ButtonCancel({ action }: ButtonProps) {
 function ButtonSave({ isSubmitting }: { isSubmitting: boolean }) {
 	return (
 		<button
-			className='border-1 cursor-pointer rounded border-solid border-lightViolet bg-lightViolet px-5 py-1 text-xs text-white outline-none hover:shadow-md'
+			className='border-1 cursor-pointer rounded border-solid border-lightViolet bg-blue-300 px-5 py-1 text-xs text-white outline-none hover:shadow-md'
 			type='submit'
 		>
 			{!isSubmitting ? "Save" : "Saving"}
